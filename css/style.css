@@ -1,0 +1,79 @@
+:root {
+    --titulo-principal: #0f9b0f;
+    --fondo-titulo: #434343;
+    --color-fondo-nav: #141E30;
+    --color-fondo-item-option: #3E5151;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-image: url("../img/paven.png");
+}
+
+.header {
+    width: 100%;
+}
+
+.img {
+    width: 20rem;
+    display: block;
+    margin: 0 auto;
+    padding: 3rem 0rem;
+}
+
+.title {
+    margin: 2rem 0rem;
+    font-size: 5rem;
+    text-align: center;
+    color: var(--titulo-principal);
+    text-shadow: 0.2rem 0.2rem 0.3rem var(--fondo-titulo);
+}
+
+.nav {
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: var(--color-fondo-nav);
+}
+
+.item {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 1rem 0rem;
+    width: 11rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: var(--titulo-principal);
+}
+
+.item-option {
+    display: none;
+    position: absolute;
+    list-style: none;
+    text-align: left;
+    top: 3.8rem;
+    width: 100%;
+    background-color: gray;
+}
+
+.list {
+    padding: 1rem;
+}
+
+.list:hover {
+    background-color:rgba(226, 248, 186, 0.534);
+    color: #000000;
+}
+
+.item:hover .item-option {
+    display: block;
+}
