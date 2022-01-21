@@ -178,6 +178,70 @@ html {
   padding: 10px;
 }
 
-.phrases p:nth-child(3){
-    color: var(--titulo-principal);
+.phrases p:nth-child(3) {
+  color: var(--titulo-principal);
+}
+
+.container-news {
+  width: 70%;
+  display: inline-block;
+  position: relative;
+  margin: 0rem 3rem;
+  top: 10rem;
+}
+
+.news {
+  position: relative;
+  background-color: white;
+  border: 0.1rem solid black;
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+
+.scotch-one {
+  position: absolute;
+  top: -2rem;
+  left: 1rem;
+}
+
+.title-news {
+  font-size: 3rem;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.backend {
+  color: rgb(200, 72, 98);
+}
+
+.instrutor {
+  color: rgb(202, 202, 26);
+}
+
+.scotch-two {
+  position: absolute;
+  top: -2rem;
+  right: 1rem;
+}
+
+.information {
+  font-size: 1.6rem;
+  padding: 1.5rem 1rem;
+}
+
+.document {
+  float: left;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.information-title {
+  color: green;
+}
+
+.date {
+  display: block;
+  font-size: 1.2rem;
+  color: gray;
 }
