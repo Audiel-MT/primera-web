@@ -185,7 +185,7 @@ html {
 .container-news {
   width: 70%;
   float: right;
-  margin: 6rem 3rem;
+  margin: 6rem 3rem 4rem;
   font-size: 1.6rem;
 }
 
@@ -244,7 +244,30 @@ html {
   color: gray;
 }
 
+.record {
+  color: var(--titulo-principal);
+  text-align: right;
+}
+
 .cleansed-float {
   float: none;
   clear: both;
+}
+
+.footer {
+  font-size: 1.6rem;
+  height: 5rem;
+  text-align: center;
+  background-color: var(--fondo-titulo);
+}
+
+.footer p {
+  color: #ffffff;
+  line-height: 4rem;
+  height: inherit;
+}
+
+.footer a {
+  color: var(--titulo-principal);
+  text-decoration: none;
 }
