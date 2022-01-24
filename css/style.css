@@ -53,6 +53,7 @@ html {
 
 .item:hover {
   background-color: var(--titulo-principal);
+  z-index: 1;
 }
 
 .item-option {
